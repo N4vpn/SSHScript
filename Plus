@@ -107,9 +107,9 @@ if [[ "$resposta" = '1' ]]; then
     wget -P $_Ink https://raw.githubusercontent.com/N4vpn/SSHScript/main/Install/list > /dev/null 2>&1; verif_key
 sleep 1s
 rm versao* > /dev/null 2>&1
-wget https://raw.githubusercontent.com/N4vpn/SSHScript/main/Modulos/versao > /dev/null 2>&1
+wget https://raw.githubusercontent.com/N4vpn/SSHScript/main/Install/versao > /dev/null 2>&1
 wget https://raw.githubusercontent.com/N4vpn/SSHScript/main/Modulos/v2raymanager > /dev/null 2>&1
-wget https://raw.githubusercontent.com/N4vpn/SSHScript/main/Modulos/botteste.sh >/dev/null 2>&1
+wget https://raw.githubusercontent.com/N4vpn/SSHScript/main/Sistema/botteste.sh >/dev/null 2>&1
 chmod 777 v2raymanager > /dev/null 2>&1
 chmod 777 botteste.sh > /dev/null 2>&1
 mkdir $HOME/BOT >/dev/null 2>&1
@@ -214,9 +214,9 @@ elif [[ "$resposta" = '2' ]]; then
     wget -P $_Ink https://raw.githubusercontent.com/N4vpn/SSHScript/main/Modulos/listARM > /dev/null 2>&1; verif_key
 sleep 1s
 rm versao* > /dev/null 2>&1
-wget https://raw.githubusercontent.com/N4vpn/SSHScript/main/Modulos/versao > /dev/null 2>&1
+wget https://raw.githubusercontent.com/N4vpn/SSHScript/main/Install/versao > /dev/null 2>&1
 wget https://raw.githubusercontent.com/N4vpn/SSHScript/main/Modulos/v2raymanager > /dev/null 2>&1
-wget https://raw.githubusercontent.com/N4vpn/SSHScript/main/Modulos/botteste.sh >/dev/null 2>&1
+wget https://raw.githubusercontent.com/N4vpn/SSHScript/main/Sistema/botteste.sh >/dev/null 2>&1
 chmod 777 v2raymanager > /dev/null 2>&1
 chmod 777 botteste.sh > /dev/null 2>&1
 mkdir $HOME/BOT >/dev/null 2>&1
