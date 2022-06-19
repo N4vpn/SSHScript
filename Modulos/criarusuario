@@ -390,23 +390,37 @@ echo "$username $sshlimiter" >>/root/usuarios.db
 		clear
 		#echo -e "\033[1;32m 📝NOME: \033[1;37m$nomee"
 		echo -e "\E[44;1;37m======🦸N4VPN VPS MANAGER🦸‍♀️======\E[0m"
-		echo -e "\033[1;32m 🚀 Host/IP : \033[1;31m$IP"
-		echo -e "\033[1;32m 🗣️Username: \033[1;37m$username"
-		echo -e "\033[1;32m 🔑Passward: \033[1;37m$password"
-		echo -e "\033[1;32m ⌛EXPIRA EM: \033[1;37m$gui"
-		echo -e "\033[1;32m 📲LIMITE DE CONEXÃO: \033[1;37m$sshlimiter"
-                echo -e "\033[1;32m 💲VALOR: \033[1;37m$vl"
-echo -ne "\n\033[1;33mENTER \033[1;33mTO GO BACK TO \033[1;33mMENU!\033[0m"; read
-	}
-} || {
-	clear
-		#echo -e "\033[1;32m 📝NOME: \033[1;37m$nomee"
-		echo -e "\E[44;1;37m======🦸N4VPN VPS MANAGER🦸‍♀️======\E[0m"
-		echo -e "\033[1;32m 🚀 Host/IP : \033[1;31m$IP"
+		echo ""
+                echo -e "\033[1;37m◈─────⪧ SSH ACCOUNT ⪦─────◈"
+                echo ""
+		echo -e "\033[1;32m 🚀Host/IP : \033[1;31m$IP"
 		echo -e "\033[1;32m 🗣️Username: \033[1;37m$username"
 		echo -e "\033[1;32m 🔑Passward: \033[1;37m$password"
 		echo -e "\033[1;32m ⌛DAYS TO EXPIRE: \033[1;37m$gui"
 		echo -e "\033[1;32m 📲CONNECTIONS LIMIT: \033[1;37m$sshlimiter"
                 echo -e "\033[1;32m 💲VALOR: \033[1;37m$vl"
+		echo ""
+                echo -e "\033[1;37m◈──────⪧ PORTS ⪦ ───────◈"
+                echo ""
+                echo -e "\033[1;32m◈ SSH	   ⌁  22" 
+                echo -ne "\n\033[1;33mENTER \033[1;33mTO GO BACK TO \033[1;33mMENU!\033[0m"; read
+	}
+} || {
+	clear
+		#echo -e "\033[1;32m 📝NOME: \033[1;37m$nomee"
+		echo -e "\E[44;1;37m======🦸N4VPN VPS MANAGER🦸‍♀️======\E[0m"
+		echo ""
+                echo -e "\033[1;37m◈─────⪧ SSH ACCOUNT ⪦─────◈"
+                echo ""
+		echo -e "\033[1;32m 🚀Host/IP : \033[1;31m$IP"
+		echo -e "\033[1;32m 🗣️Username: \033[1;37m$username"
+		echo -e "\033[1;32m 🔑Passward: \033[1;37m$password"
+		echo -e "\033[1;32m ⌛DAYS TO EXPIRE: \033[1;37m$gui"
+		echo -e "\033[1;32m 📲CONNECTIONS LIMIT: \033[1;37m$sshlimiter"
+                echo -e "\033[1;32m 💲VALOR: \033[1;37m$vl"
+		echo ""
+                echo -e "\033[1;37m◈──────⪧ PORTS ⪦ ───────◈"
+                echo ""
+                echo -e "\033[1;32m◈ SSH	   ⌁  22"
 echo -ne "\n\033[1;33mENTER \033[1;33mTO GO BACK TO \033[1;33mMENU!\033[0m"; read
 }
