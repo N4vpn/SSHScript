@@ -347,7 +347,8 @@ echo "$username $sshlimiter" >>/root/usuarios.db
 		}
 		clear
 		#echo -e "\033[1;32m 📝NOME: \033[1;37m$nomee"
-		echo -e "\E[44;1;37m======🦸DADOS DE ACESSO🦸‍♀️======\E[0m"
+		echo -e "\E[44;1;37m======🦸N4VPN VPS MANAGER🦸‍♀️======\E[0m"
+		echo -e "\033[1;32m 🚀 Host/IP : \033[1;31m$IP"
 		echo -e "\033[1;32m 🗣️ Username: \033[1;37m$username"
 		echo -e "\033[1;32m 🔑 Passward: \033[1;37m$password"
 		echo -e "\033[1;32m ⌛DAYS TO EXPIRE: \033[1;37m$gui"
@@ -388,7 +389,8 @@ echo "$username $sshlimiter" >>/root/usuarios.db
 	} || {
 		clear
 		#echo -e "\033[1;32m 📝NOME: \033[1;37m$nomee"
-		echo -e "\E[44;1;37m======🦸DADOS DE ACESSO🦸‍♀️======\E[0m"
+		echo -e "\E[44;1;37m======🦸N4VPN VPS MANAGER🦸‍♀️======\E[0m"
+		echo -e "\033[1;32m 🚀 Host/IP : \033[1;31m$IP"
 		echo -e "\033[1;32m 🗣️Username: \033[1;37m$username"
 		echo -e "\033[1;32m 🔑Passward: \033[1;37m$password"
 		echo -e "\033[1;32m ⌛EXPIRA EM: \033[1;37m$gui"
@@ -399,7 +401,8 @@ echo -ne "\n\033[1;33mENTER \033[1;33mTO GO BACK TO \033[1;33mMENU!\033[0m"; rea
 } || {
 	clear
 		#echo -e "\033[1;32m 📝NOME: \033[1;37m$nomee"
-		echo -e "\E[44;1;37m======🦸DADOS DE ACESSO🦸‍♀️======\E[0m"
+		echo -e "\E[44;1;37m======🦸N4VPN VPS MANAGER🦸‍♀️======\E[0m"
+		echo -e "\033[1;32m 🚀 Host/IP : \033[1;31m$IP"
 		echo -e "\033[1;32m 🗣️Username: \033[1;37m$username"
 		echo -e "\033[1;32m 🔑Passward: \033[1;37m$password"
 		echo -e "\033[1;32m ⌛DAYS TO EXPIRE: \033[1;37m$gui"
