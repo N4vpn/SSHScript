@@ -49,9 +49,9 @@ readonly -A _SHELLBOT_=(
 [shell]=${SHELL}
 [shell_version]=${BASH_VERSION}
 [author]='Juliano Santos [SHAMAN]'
-[email]='shellscriptx@gmail.com'
+[email]='N4vpnssh@gmail.com'
 [wiki]='https://github.com/shellscriptx/shellbot/wiki'
-[github]='https://github.com/shellscriptx/shellbot'
+[github]='https://github.com/N4vpn/SSHScript/blob/main/Install/ShellBot.sh'
 [packages]='curl 7.0, getopt 2.0, jq 1.5'
 )
 
